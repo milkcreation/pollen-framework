@@ -7,13 +7,12 @@
     "plugins",
     "framework"
   ],
-  "time": "2021-06-15",
+  "time": "2021-07-01",
   "license": "MIT",
   "authors": [
     {
       "name": "Jordy Manner",
-      "email": "jordy@presstify.com",
-      "role": "Developper"
+      "email": "jordy@presstify.com"
     }
   ],
   "repositories": [
@@ -23,7 +22,7 @@
     }
   ],
   "require": {
-    "composer/installers": "~1.0",
+    "php": "^7.4 || ^8.0",
     "pollen-solutions/asset": "^1.0",
     "pollen-solutions/config": "^1.0",
     "pollen-solutions/container": "^1.0",
@@ -32,6 +31,7 @@
     "pollen-solutions/debug": "^1.0",
     "pollen-solutions/encryption": "^1.0",
     "pollen-solutions/event": "^1.0",
+    "pollen-solutions/faker": "^1.0",
     "pollen-solutions/field": "^1.0",
     "pollen-solutions/filesystem": "^1.0",
     "pollen-solutions/form": "^1.0",
